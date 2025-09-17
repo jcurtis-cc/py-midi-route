@@ -1,6 +1,8 @@
 # py-midi-route
 
-MIDI router and splitter: echoes each MIDI device input to unique virtual MIDI device.
+MIDI router and splitter: intercepts each MIDI device input and fans out to unique dual virtual MIDI devices.
+
+Useful for Ableton Live when needing to listen for MIDI via `Track` and `Remote` simultaneously.
 
 ## Windows
 
